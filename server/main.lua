@@ -1,7 +1,6 @@
-ESX = nil
 local playersProcessingCannabis = {}
 
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+ESX = exports["es_extended"]:getSharedObject()
 
 local itemsList = {}
 
